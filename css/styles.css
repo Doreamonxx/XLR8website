@@ -1,6 +1,10 @@
 body{
     background-color: bisque;
 }
+ 
+html{
+    scroll-behavior: smooth;
+}
 
 .map-container{
     width: 80vw;

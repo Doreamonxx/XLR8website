@@ -7,6 +7,7 @@
     <title>XLR8</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
 </head>
 <body>
 
@@ -24,39 +25,56 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Map">Map</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Bikes">Bikes</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    
-    <div class="container mt-4">
-        <h2 class="text-center">Location, Location, Location!</h2>
-        <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4181.354827195215!2d-2.595287701623849!3d51.45359459736607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SB!5e0!3m2!1sen!2suk!4v1743513456987!5m2!1sen!2suk" 
-                width="100%" 
-                height="100%" 
-                style="border:0;" 
-                allowfullscreen 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+
+    <!-- Home Section -->
+    <section id="Home" class="section section-bg">
+        <div class="container">
+            <img src="images/XLR8 Logo.png" width>
+            <p class="text-center">This is the home section, where we introduce our amazing company.</p>
         </div>
-    </div>
+    </section>
 
-    <div class="container mt-5" id="About">
-        <h2 class="text-center">About Us</h2>
-        <p class="text-center">We will put our awesome life and about us story over here</p>
-    </div>
-    
+    <!-- About Us Section -->
+    <section id="About" class="section">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">We will put our awesome life and about us story over here.</p>
+        </div>
+    </section>
 
-    <!-- Main Content -->
-    <div class="container mt-5">
-        <p class="text-center">Welcome to the future...</p>
-    </div>
+    <!-- Map Section -->
+    <section id="Map" class="section section-bg">
+        <div class="container">
+            <h2 class="text-center">Location, Location, Location!</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4181.354827195215!2d-2.595287701623849!3d51.45359459736607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7869341d07%3A0xff9dec147ff74e37!2sBristol%20city%20centre%2C%20Bristol%20BS1%204SB!5e0!3m2!1sen!2suk!4v1743513456987!5m2!1sen!2suk" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bikes Section -->
+    <section id="Bikes" class="section">
+        <div class="container">
+            <h2 class="text-center">Our Bikes</h2>
+            <p class="text-center">Here we showcase our awesome bikes for all to see!</p>
+        </div>
+    </section>
 
     <!-- Bootstrap 5 JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
