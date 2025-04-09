@@ -49,10 +49,6 @@ section {
     padding: 60px 0;
 }
 
-/* Example styling for each section */
-.section-bg {
-    background-color: #f8f9fa;
-}
 
 .map-container {
     width: 80vw;
@@ -91,6 +87,8 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
  }
 
  .static-background {
@@ -120,10 +118,17 @@ body {
  }
 
  .intro-text {
+    display: inline-block;
+    max-width: 90%;
+    padding: 20px;
     width: 700px;
     margin: 0 auto;
     padding-top: 20px;
     z-index: 1;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
 
  }
 
@@ -133,4 +138,44 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
  }
 
- 
+ #About .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+ }
+
+ #About .carousel-control-prev-icon,
+ #About .carousel-control-next-icon {
+    background-color: black;
+ }
+
+ .about-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .about-slideshow {
+    width: 50%;
+ }
+
+ .about-text {
+    width: 50%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+ }
+
+ .about-text p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+ }
